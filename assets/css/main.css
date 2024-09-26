@@ -629,7 +629,7 @@ section,
 }
 
 .section-title div .description-title {
-  color: var(--accent-color);
+  color: #730202;
 }
 
 /*--------------------------------------------------------------
@@ -685,7 +685,7 @@ section,
 .hero h2 {
     font-family: 'archivo black';
     font-weight: bold; /*  definir el grosor de la fuente */
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 700;
   margin-bottom: 20px;
     color: #730202
@@ -696,7 +696,8 @@ section,
   color: var(--accent-color);
 }
 
-.hero p { font-family: 'space grotesk';
+.hero p 
+{ font-family: 'space grotesk';
     font-weight: normal; /*definir el grosor de la fuente */
   color: #042940
   font-weight: 400;
@@ -766,7 +767,7 @@ section,
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 29px 0 rgba(115, 2, 2, 0.1);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
@@ -908,7 +909,7 @@ section,
 --------------------------------------------------------------*/
 .services .service-item {
   background-color: #F2EFDF;
-  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+
   padding: 50px 30px;
   transition: all ease-in-out 0.3s;
   border-radius: 18px;
@@ -966,7 +967,7 @@ section,
 .features .feature-box {
   background-color: var(--surface-color);
   padding: 24px 20px;
-  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 0px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   height: 100%;
 }
@@ -999,8 +1000,8 @@ section,
 --------------------------------------------------------------*/
 .pricing .pricing-tem {
   background-color: #F2EFDF;
-  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 30px rgba(115, 2, 2, 0.01);
+  box-shadow: 0px 0 30px rgba(115, 2, 2, 0.1);
   padding: 40px 20px;
   text-align: center;
   border-radius: 4px;
